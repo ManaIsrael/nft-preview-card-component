@@ -1,0 +1,132 @@
+:root {
+--primary-soft-blue: hsl(215, 51%, 70%);
+--primary-cyan: hsl(178, 100%, 50%);
+
+--neutral-mainbg: hsl(217, 54%, 11%);
+--neutral-cardbg: hsl(216, 50%, 16%);
+--neutral-line: hsl(215, 32%, 27%);
+--neutral-white: hsl(0, 0%, 100%);
+
+--fs-bodycopy: 18px;
+--ff-outfit: 'Outfit';
+--fw-light: 300;
+--fw-normal: 400;
+--fw-bold: 600;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: var(--ff-outfit), sans-serif;
+}
+main {
+background-color: var(--neutral-mainbg);
+max-width: 1440px;
+height: 900px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.card {
+max-width: 355px;
+height: 570px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+background-color: var(--neutral-cardbg);
+}
+.holder {
+max-width: 90%;
+border-radius: 15px;
+}
+
+.image {
+margin-bottom: 1em;
+}
+.image img {
+max-width: 100%;
+border-radius: 15px;
+}
+.image:hover {
+background: url("./images/icon-view.svg") center no-repeat;
+background-color: var(--primary-cyan);
+}
+.image img:hover {
+cursor: pointer;
+opacity: .3;
+}
+.text #title {
+font-weight: var(--fw-bold);
+font-size: var(--fs-bodycopy);
+margin-bottom: 1em;
+color: var(--neutral-white);
+}
+.text #title:hover {
+color: var(--primary-cyan);
+cursor: pointer;
+}
+.text #note {
+font-weight: var(--fw-normal);
+margin-bottom: 1em;
+color: var(--primary-soft-blue);
+}
+
+.spans {
+margin-bottom: 1em;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.spans img {
+margin-right: .5em;
+}
+.spans span {
+font-size: 14px;
+}
+.spans .flx {
+display: flex;
+align-items: center;
+}
+.spans .flx:first-of-type {
+float: left;
+color: var(--primary-cyan);
+}
+.spans .flx:last-of-type {
+color: var(--primary-soft-blue);
+}
+
+.line {
+width: 100%;
+height: 1px;
+background-color: var(--neutral-line);
+margin-bottom: 1em;
+}
+
+.info {
+display: flex;
+align-items: center;
+}
+.info img {
+width: 50px;
+height: 50px;
+border: 2px solid var(--neutral-white);
+border-radius: 50%;
+margin-right: 1em;
+}
+.info span {
+font-weight: var(--fw-light);
+font-size: 14px;
+color: var(--primary-soft-blue);
+}
+.info > span > span {
+color: var(--neutral-white);
+}
+.info > span > span:hover {
+color: var(--primary-cyan);
+cursor: pointer;
+}
