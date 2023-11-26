@@ -36,4 +36,4 @@ NFT Projects
 
 ## Acknowledgments
 
-I Always Love to Acknowledge Mother of God Saint Virgin Mary, I wouldn't even know what my passion and luck is if I hadn't prayed unto her. Next I would Love to acknowledge my Mother Sara fekadu who encouraged me to keep up with my passion, without her advice, I wouldn't be here doing web development rather I would only just care about my GPAs.
+I Always Love to Acknowledge Mother of God Saint Virgin Mary.
